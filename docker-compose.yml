@@ -1,0 +1,13 @@
+version: '2'
+services:
+ web:
+   image: miapp_7
+ lb:
+   image: dockercloud/haproxy
+   links:
+    - web
+   ports:
+    - 8090:80
+   volumes:
+     - ./src:/var/www/html
+
