@@ -3,7 +3,7 @@
  * using mysqli_connect for database connection
  */
 
-$databaseHost = 'localhost:8082';
+$databaseHost = '192.168.100.240:8082';
 $databaseName = 'crud_db';
 $databaseUsername = 'root2';
 $databasePassword = 'root';
