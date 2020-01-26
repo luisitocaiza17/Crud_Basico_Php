@@ -11,8 +11,8 @@ services:
         environment:
           - MYSQL_ROOT_PASSWORD=.sweetpwd.
           - MYSQL_DATABASE=crud_db
-          - MYSQL_USER=root
-          - MYSQL_PASSWORD=root
+          - MYSQL_USER=db_user
+          - MYSQL_PASSWORD=.mypwd
         ports:
           - "8082:3306"
         volumes:
